@@ -26,7 +26,7 @@ def find_the_cheese(food)
   # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-    cheese = (food & cheese_types)
+    cheese = (food & cheese_types).to_s
     return cheese
 end
 
