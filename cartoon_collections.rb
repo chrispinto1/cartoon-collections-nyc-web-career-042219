@@ -29,7 +29,7 @@ def find_the_cheese(food)
   #food.each do |food|
     cheese= []
     cheese  << food & cheese_types
-    returncheese
+    return cheese
     #cheese_types.each do |cheese|
       #if food.include?(cheese)
        # food.find {|cheeses| food == cheeses}
