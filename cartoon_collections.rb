@@ -27,8 +27,7 @@ def find_the_cheese(food)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   #food.each do |food|
-    equals = (food & cheese_types)
-    equals.to_s
+    (food & cheese_types).pop
     #cheese_types.each do |cheese|
       #if food.include?(cheese)
        # food.find {|cheeses| food == cheeses}
